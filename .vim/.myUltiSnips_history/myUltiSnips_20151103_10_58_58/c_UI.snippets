@@ -1,0 +1,174 @@
+###########################################################################
+#                            TextMate Snippets                            #
+###########################################################################
+
+priority -50
+
+# 创建minigui新窗口模板
+snippet minigui_form "Creat Minigui Form" b
+/*
+ * =====================================================================================
+ *
+ *       Filename:  `!v fnamemodify(bufname("%"),":t") `
+ *
+ *    Description:  ${1:description}
+ *
+ *        Version:  ${2:virsion}
+ *        Created:  `echo $(date +%Y-%m-%d\ %H:%M:%S)`
+ *       Revision:  ${3:none}
+ *
+ *         Author:  xubin
+ *        Company:  Taichuan
+ *
+ * =====================================================================================
+ */
+/* ----------------------------------------------------------------*
+ *                      include head files
+ *-----------------------------------------------------------------*/
+
+#include <minigui/common.h>
+#include <minigui/minigui.h>
+#include <minigui/gdi.h>
+#include <minigui/window.h>
+#include <minigui/control.h>
+#include "`!v fnamemodify(bufname("%"),":r") `.h"
+/* ----------------------------------------------------------------*
+ *                  extern variables declare
+ *-----------------------------------------------------------------*/
+
+/* ----------------------------------------------------------------*
+ *                  internal functions declare
+ *-----------------------------------------------------------------*/
+
+/* ----------------------------------------------------------------*
+ *                        macro define
+ *-----------------------------------------------------------------*/
+#if DBG_${4:none} > 0
+	#define DBG_P( x... ) printf( x )
+#else
+	#define DBG_P( x... )
+#endif
+
+/* ----------------------------------------------------------------*
+ *                      variables define
+ *-----------------------------------------------------------------*/
+static BITMAP *Bmp_background = NULL; 
+static MY_CTRLDATA ChildCtrls [] = {
+
+
+};
+
+static MY_DLGTEMPLATE DlgInitParam =
+{
+    WS_NONE,
+//   WS_EX_AUTOSECONDARYDC,
+    WS_EX_NONE,
+    0,0,SCR_WIDTH,SCR_HEIGHT,
+    "",
+    0, 0,       //menu and icon is null
+    sizeof(ChildCtrls)/sizeof(MY_CTRLDATA),
+    ChildCtrls, //pointer to control array
+    0           //additional data,must be zero
+};
+
+
+/* ----------------------------------------------------------------*/
+/**
+ * @brief ProUserKeyBoard 处理按键键值
+ *
+ * @param hWnd  主窗口句柄
+ * @param KeyVal 键值
+ */
+/* ----------------------------------------------------------------*/
+static void ProUserKeyBoard(HWND hWnd,int KeyVal)
+{
+	switch(KeyVal)
+	{
+		default:
+			{
+			} break;
+	}
+}
+
+
+/* ----------------------------------------------------------------*/
+/**
+ * @brief $5Proc 窗口回调函数
+ *
+ * @param hWnd
+ * @param message
+ * @param wParam
+ * @param lParam
+ *
+ * @return
+ */
+/* ----------------------------------------------------------------*/
+static int $5Proc(HWND hWnd, int message, WPARAM wParam, LPARAM lParam)
+{
+	switch (message)
+	{
+		case MSG_INITDIALOG:
+			{
+				Screen.Add(hWnd,"TFrm$6");
+			} break;
+
+		case MSG_KEYBOARD :
+			ProUserKeyBoard(hWnd,wParam);
+			break;
+
+		case MSG_ERASEBKGND:
+			if (Bmp_background != NULL)
+				DrawBackground(hWnd, (HDC)wParam, (const RECT*)lParam,Bmp_background);
+			return 0;
+
+		case MSG_CLOSE:
+			DestroyMainWindow (hWnd);
+			MainWindowThreadCleanup (hWnd);
+			return 0;
+
+		case MSG_DESTROY:
+			Screen.Del(hWnd);
+			DestroyAllControls (hWnd);
+			return 0;
+
+		default:
+			break;
+	}
+    return DefaultDialogProc(hWnd, message, wParam, lParam);
+}
+
+/* ----------------------------------------------------------------*/
+/**
+ * @brief Create$5Form 创建${7}窗口
+ *
+ * @param hMainWnd
+ *
+ * @returns
+ */
+/* ----------------------------------------------------------------*/
+int Create${5}Form(HWND hMainWnd,BITMAP *Bmp_bkg)
+{
+	HWND Form = Screen.Find("TFrm${6}");
+	Bmp_background = Bmp_bkg;
+	if(Form) {
+		ShowWindow(Form,SW_SHOWNORMAL);
+		return Form;
+	} else {
+		return CreateMyWindowIndirectParam(&DlgInitParam,hMainWnd,$5Proc,0);
+	}
+}
+${0}
+endsnippet
+
+snippet xywh "define X_* Y_* W_* H_* for controls location" b
+#define W_${1:SIMBLE}	${0}
+#define H_$1	
+#define X_$1	
+#define Y_$1	
+
+endsnippet
+
+snippet cctrl "X_*,Y_*,W_*,H_*,for creat controls" b
+ (X_${1},Y_$1,W_$1,H_$1,);
+endsnippet
+# vim:ft=snippets:

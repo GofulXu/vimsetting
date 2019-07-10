@@ -1,0 +1,2212 @@
+# 这个 viminfo 文件是由 Vim 7.4 所产生。
+# 如果想要自行修改请特别小心！
+
+# 文件被写的时候 ‘encoding’ 的值
+*encoding=utf-8
+
+
+# hlsearch on (H) or off (h):
+~h
+# 上个 Search 图案：
+~Msle0~/\<wifi_stop\.sh\>
+
+# 上个 替换 Search 图案：
+~MSle0&Data->
+
+# 最后替换的字符串
+$Data[i]\.
+
+# 命令行 历史记录 (从新到旧)：
+:q
+:wq
+:w
+:set mouse -=a
+:46
+:34
+:Wq
+:vs wifi_station.sh
+:vs wifi_start.sh
+:q!
+:vs bash/create_etc_jffs2fs.sh
+:W
+:1111
+:Q
+:vs Kconfig
+:52
+:set moouse -=a
+:Set mouse -=a
+:vs Makefile
+: proposed address 192.168.1.101 [28/06 10:55:22.554]
+
+# 查找字符串 历史记录 (从新到旧)：
+? \<wifi_stop\.sh\>
+? \<WifiWorkModeReset\>
+?/ifconfig
+?/stop
+? \<MODE\>
+? \<myGpioHandleThreadCreate\>
+? \<myGpioThread\>
+? \<myGpioInit\>
+? \<myGpioInputThreadCreate\>
+? \<creatInputThread\>
+? \<checkInputHandle\>
+? \<inputHandle\>
+? \<myGpioInputHandle\>
+? \<gpiotbl\>
+? \<myGpioHandle\>
+? \<Handle\>
+? \<Always\>
+? \<CROSS_COMPILE\>
+?/anyka
+?/EXTRA_CFLAGS += -DCONFIG_CONCURRENT_MODE
+
+# 表达式 历史记录 (从新到旧)：
+
+# 输入行 历史记录 (从新到旧)：
+
+# 输入行 历史记录 (从新到旧)：
+
+# 寄存器:
+"0	LINE	0
+		sleep(1);
+""1	LINE	0
+		kill -9 `ps -A |grep "udhcpc -iwlan0"| awk '{print $1}'`
+"2	LINE	0
+		kill
+"3	LINE	0
+		killall
+"4	LINE	0
+					printf("[%s]WifiWorkModeReset wait\n", __FUNCTION__);
+"5	LINE	0
+			sleep(6);
+"6	LINE	0
+			ExcuteCmd("/mnt/nand/wifi_stop.sh all &");
+"7	LINE	0
+	exit 0
+"8	LINE	0
+		sleep(1);
+"9	LINE	0
+		sleep 30
+"-	CHAR	0
+	 start
+
+# 文件标记:
+'0  31  0  ~/work/Anyka/sdk/platform/rootfs_build/nand/init.sh
+'1  126  0  ~/work/Anyka/project/GM-X9-AL-WF/src/UDPServer.c
+'2  28  0  ~/work/Anyka/sdk/platform/rootfs_build/nand/init.sh
+'3  40  0  ~/work/Anyka/sdk/platform/rootfs_build/nand/wifi_softap.sh
+'4  136  0  ~/work/Anyka/sdk/platform/rootfs_build/nand/wifi_connect.sh
+'5  25  0  ~/work/Anyka/sdk/platform/rootfs_build/nand/wifi_stop.sh
+'6  25  0  ~/work/Anyka/sdk/platform/rootfs_build/nand/wifi_restart.sh
+'7  1  0  ~/work/Anyka/sdk/platform/rootfs_build/nand/wifi_start.sh
+'8  34  0  ~/work/Anyka/sdk/platform/rootfs_build/nand/wifi_station.sh
+'9  1  0  ~/work/Anyka/sdk/platform/rootfs_build/nand/wifi_restart.sh
+
+# 跳转列表 (从新到旧):
+-'  31  0  ~/work/Anyka/sdk/platform/rootfs_build/nand/init.sh
+-'  1  0  ~/work/Anyka/sdk/platform/rootfs_build/nand/__Tagbar__
+-'  3  0  ~/work/Anyka/sdk/platform/rootfs_build/nand/__Tagbar__
+-'  4  0  ~/work/Anyka/sdk/platform/rootfs_build/nand/__Tagbar__
+-'  1  0  ~/work/Anyka/sdk/platform/rootfs_build/nand/init.sh
+-'  126  0  ~/work/Anyka/project/GM-X9-AL-WF/src/UDPServer.c
+-'  17  4  ~/work/Anyka/project/GM-X9-AL-WF/__Tagbar__
+-'  22  0  ~/work/Anyka/project/GM-X9-AL-WF/__Tagbar__
+-'  1  0  ~/work/Anyka/project/GM-X9-AL-WF/src/UDPServer.c
+-'  28  0  ~/work/Anyka/sdk/platform/rootfs_build/nand/init.sh
+-'  40  0  ~/work/Anyka/sdk/platform/rootfs_build/nand/wifi_softap.sh
+-'  10  4  ~/work/Anyka/sdk/platform/rootfs_build/nand/__Tagbar__
+-'  13  0  ~/work/Anyka/sdk/platform/rootfs_build/nand/__Tagbar__
+-'  1  0  ~/work/Anyka/sdk/platform/rootfs_build/nand/wifi_softap.sh
+-'  136  0  ~/work/Anyka/sdk/platform/rootfs_build/nand/wifi_connect.sh
+-'  20  4  ~/work/Anyka/sdk/platform/rootfs_build/nand/__Tagbar__
+-'  25  0  ~/work/Anyka/sdk/platform/rootfs_build/nand/__Tagbar__
+-'  96  1  ~/work/Anyka/sdk/platform/rootfs_build/nand/wifi_connect.sh
+-'  1  0  ~/work/Anyka/sdk/platform/rootfs_build/nand/wifi_connect.sh
+-'  25  0  ~/work/Anyka/sdk/platform/rootfs_build/nand/wifi_stop.sh
+-'  27  4  ~/work/Anyka/sdk/platform/rootfs_build/nand/__Tagbar__
+-'  30  0  ~/work/Anyka/sdk/platform/rootfs_build/nand/__Tagbar__
+-'  1  0  ~/work/Anyka/sdk/platform/rootfs_build/nand/wifi_stop.sh
+-'  25  0  ~/work/Anyka/sdk/platform/rootfs_build/nand/wifi_restart.sh
+-'  1  0  ~/work/Anyka/sdk/platform/rootfs_build/nand/wifi_restart.sh
+-'  1  0  ~/work/Anyka/sdk/platform/rootfs_build/nand/wifi_start.sh
+-'  34  0  ~/work/Anyka/sdk/platform/rootfs_build/nand/wifi_station.sh
+-'  1  0  ~/work/Anyka/sdk/platform/rootfs_build/nand/wifi_station.sh
+-'  42  0  ~/work/Anyka/project/GM-X9-AL-WF/src/main.c
+-'  24  4  ~/work/Anyka/project/GM-X9-AL-WF/__Tagbar__
+-'  29  0  ~/work/Anyka/project/GM-X9-AL-WF/__Tagbar__
+-'  1  0  ~/work/Anyka/project/GM-X9-AL-WF/src/main.c
+-'  52  0  ~/work/Anyka/project/GM-X9-AL-WF/src/main.c
+-'  30  4  ~/work/Anyka/project/GM-X9-AL-WF/__Tagbar__
+-'  35  0  ~/work/Anyka/project/GM-X9-AL-WF/__Tagbar__
+-'  121  0  ~/work/Anyka/project/GM-X9-AL-WF/src/UDPServer.c
+-'  38  4  ~/work/Anyka/project/GM-X9-AL-WF/__Tagbar__
+-'  43  0  ~/work/Anyka/project/GM-X9-AL-WF/__Tagbar__
+-'  125  3  ~/work/Anyka/project/GM-X9-AL-WF/src/UDPServer.c
+-'  46  0  ~/work/Anyka/project/GM-X9-AL-WF/src/UDPServer.c
+-'  65  4  ~/work/Anyka/project/GM-X9-AL-WF/__Tagbar__
+-'  81  0  ~/work/Anyka/project/GM-X9-AL-WF/__Tagbar__
+-'  85  4  ~/work/Anyka/project/GM-X9-AL-WF/__Tagbar__
+-'  90  0  ~/work/Anyka/project/GM-X9-AL-WF/__Tagbar__
+-'  93  4  ~/work/Anyka/project/GM-X9-AL-WF/__Tagbar__
+-'  98  0  ~/work/Anyka/project/GM-X9-AL-WF/__Tagbar__
+-'  101  4  ~/work/Anyka/project/GM-X9-AL-WF/__Tagbar__
+-'  106  0  ~/work/Anyka/project/GM-X9-AL-WF/__Tagbar__
+-'  109  4  ~/work/Anyka/project/GM-X9-AL-WF/__Tagbar__
+-'  114  0  ~/work/Anyka/project/GM-X9-AL-WF/__Tagbar__
+-'  47  0  ~/work/Anyka/sdk/platform/rootfs_build/nand/init.sh
+-'  7  0  ~/work/Anyka/sdk/platform/rootfs_build/__Tagbar__
+-'  8  0  ~/work/Anyka/sdk/platform/rootfs_build/__Tagbar__
+-'  9  0  ~/work/Anyka/sdk/platform/rootfs_build/__Tagbar__
+-'  16  0  ~/work/Anyka/sdk/platform/rootfs_build/nand/finish_ethernet.sh
+-'  1  0  ~/work/Anyka/sdk/platform/rootfs_build/nand/finish_ethernet.sh
+-'  19  0  ~/work/Anyka/sdk/platform/rootfs_build/nand/init.sh
+-'  118  4  ~/work/Anyka/project/GM-X9-AL-WF/__Tagbar__
+-'  123  0  ~/work/Anyka/project/GM-X9-AL-WF/__Tagbar__
+-'  53  0  ~/work/Anyka/sdk/platform/rootfs_build/rootfs/usr/share/udhcpc/default.script
+-'  1  0  ~/work/Anyka/sdk/platform/rootfs_build/rootfs/usr/share/udhcpc/default.script
+-'  3  14  ~/work/Anyka/sdk/platform/rootfs_build/nand/hostapd.conf
+-'  1  0  ~/work/Anyka/sdk/platform/rootfs_build/nand/hostapd.conf
+-'  34  0  ~/work/Anyka/sdk/platform/rootfs_build/nand/wifi_softap.sh
+-'  46  4  ~/work/Anyka/sdk/platform/rootfs_build/nand/__Tagbar__
+-'  50  0  ~/work/Anyka/sdk/platform/rootfs_build/nand/__Tagbar__
+-'  11  0  ~/work/Anyka/sdk/platform/rootfs_build/nand/wifi_softap.sh
+-'  11  14  ~/work/Anyka/sdk/platform/rootfs_build/nand/udhcpd.conf
+-'  1  0  ~/work/Anyka/sdk/platform/rootfs_build/nand/udhcpd.conf
+-'  129  0  ~/work/Anyka/project/GM-X9-AL-WF/__Tagbar__
+-'  12  0  ~/work/Anyka/sdk/platform/rootfs_build/__Tagbar__
+-'  13  0  ~/work/Anyka/sdk/platform/rootfs_build/__Tagbar__
+-'  14  0  ~/work/Anyka/sdk/platform/rootfs_build/__Tagbar__
+-'  53  0  ~/work/Anyka/sdk/platform/rootfs_build/nand/init.sh
+-'  49  0  ~/work/Anyka/sdk/platform/rootfs_build/nand/finish_ethernet.sh
+-'  4  0  ~/work/Anyka/sdk/platform/rootfs_build/nand/wifi_stop.sh
+-'  39  0  ~/work/Anyka/sdk/platform/rootfs_build/nand/wifi_stop.sh
+-'  59  4  ~/work/Anyka/sdk/platform/rootfs_build/nand/__Tagbar__
+-'  25  0  ~/work/Anyka/sdk/platform/rootfs_build/nand/wifi_stop.sh
+-'  15  4  ~/work/Anyka/sdk/platform/rootfs_build/nand/__Tagbar__
+-'  18  0  ~/work/Anyka/sdk/platform/rootfs_build/nand/__Tagbar__
+-'  1  0  ~/work/Anyka/sdk/platform/rootfs_build/nand/wifi_stop.sh
+-'  25  0  ~/work/Anyka/sdk/platform/rootfs_build/nand/wifi_restart.sh
+-'  1  0  ~/work/Anyka/sdk/platform/rootfs_build/nand/wifi_restart.sh
+-'  1  0  ~/work/Anyka/sdk/platform/rootfs_build/nand/wifi_start.sh
+-'  34  0  ~/work/Anyka/sdk/platform/rootfs_build/nand/wifi_station.sh
+-'  1  0  ~/work/Anyka/sdk/platform/rootfs_build/nand/wifi_station.sh
+-'  42  0  ~/work/Anyka/project/GM-X9-AL-WF/src/main.c
+-'  1  0  ~/work/Anyka/project/GM-X9-AL-WF/src/main.c
+-'  126  0  ~/work/Anyka/project/GM-X9-AL-WF/src/UDPServer.c
+-'  17  4  ~/work/Anyka/project/GM-X9-AL-WF/__Tagbar__
+-'  22  0  ~/work/Anyka/project/GM-X9-AL-WF/__Tagbar__
+-'  1  0  ~/work/Anyka/project/GM-X9-AL-WF/src/UDPServer.c
+-'  40  0  ~/work/Anyka/sdk/platform/rootfs_build/nand/wifi_softap.sh
+-'  8  4  ~/work/Anyka/sdk/platform/rootfs_build/nand/__Tagbar__
+-'  11  0  ~/work/Anyka/sdk/platform/rootfs_build/nand/__Tagbar__
+
+# 文件内的标记历史记录 (从新到旧):
+
+> ~/work/Anyka/sdk/platform/rootfs_build/nand/init.sh
+	"	31	0
+	.	47	0
+	+	59	0
+	+	60	0
+	+	59	0
+	+	48	0
+	+	59	0
+	+	59	0
+	+	59	0
+	+	59	0
+	+	59	4
+	+	59	2
+	+	59	0
+	+	59	44
+	+	59	0
+	+	48	0
+	+	48	0
+	+	48	0
+	+	59	0
+	+	60	0
+	+	59	0
+	+	48	0
+	+	48	0
+	+	48	0
+	+	48	6
+	+	48	0
+	+	34	0
+	+	48	0
+	+	48	1
+	+	48	1
+	+	26	0
+	+	48	27
+	+	48	6
+	+	48	0
+	+	48	0
+	+	48	0
+	+	47	0
+	+	59	0
+	+	41	0
+	+	45	28
+	+	48	0
+	+	48	6
+	+	45	22
+	+	48	0
+	+	40	0
+	+	40	0
+	+	48	0
+	+	40	0
+	+	40	0
+	+	40	0
+	+	48	0
+	+	48	13
+	+	40	0
+	+	48	0
+	+	48	0
+	+	48	0
+	+	48	6
+	+	57	0
+	+	48	0
+	+	50	0
+	+	50	0
+	+	48	0
+	+	48	0
+	+	48	0
+	+	57	7
+	+	57	3
+	+	57	7
+	+	57	0
+	+	57	0
+	+	57	0
+	+	57	6
+	+	57	0
+	+	57	0
+	+	57	0
+	+	34	0
+	+	37	0
+	+	34	0
+	+	33	0
+	+	38	0
+	+	55	0
+	+	51	0
+	+	52	0
+	+	53	0
+	+	51	0
+	+	52	0
+	+	54	0
+	+	55	0
+	+	41	8
+	+	54	0
+	+	53	0
+	+	55	0
+	+	51	0
+	+	52	0
+	+	53	0
+	+	55	0
+	+	45	28
+	+	55	0
+	+	49	6
+	+	37	6
+	+	49	6
+	+	37	6
+	+	47	0
+
+> ~/work/Anyka/sdk/platform/rootfs_build/nand/__Tagbar__
+	"	1	0
+	.	4	0
+	+	111	0
+	+	111	0
+	+	111	0
+	+	111	0
+	+	111	0
+	+	111	0
+	+	111	0
+	+	111	0
+	+	111	0
+	+	111	0
+	+	111	0
+	+	111	0
+	+	111	0
+	+	111	0
+	+	111	0
+	+	111	0
+	+	111	0
+	+	111	0
+	+	111	0
+	+	111	0
+	+	111	0
+	+	111	0
+	+	107	0
+	+	107	0
+	+	107	0
+	+	104	0
+	+	104	0
+	+	104	0
+	+	104	0
+	+	104	0
+	+	104	0
+	+	104	0
+	+	104	0
+	+	104	0
+	+	104	0
+	+	104	0
+	+	104	0
+	+	104	0
+	+	104	0
+	+	104	0
+	+	104	0
+	+	104	0
+	+	99	0
+	+	99	0
+	+	99	0
+	+	99	0
+	+	99	0
+	+	99	0
+	+	92	0
+	+	86	0
+	+	86	0
+	+	84	0
+	+	82	0
+	+	82	0
+	+	70	0
+	+	70	0
+	+	69	0
+	+	69	0
+	+	69	0
+	+	65	0
+	+	65	0
+	+	65	0
+	+	60	0
+	+	60	0
+	+	60	0
+	+	54	0
+	+	50	0
+	+	50	0
+	+	50	0
+	+	50	0
+	+	50	0
+	+	50	0
+	+	50	0
+	+	50	0
+	+	43	0
+	+	37	0
+	+	34	0
+	+	31	0
+	+	30	0
+	+	30	0
+	+	30	0
+	+	30	0
+	+	30	0
+	+	30	0
+	+	30	0
+	+	30	0
+	+	30	0
+	+	30	0
+	+	30	0
+	+	30	0
+	+	30	0
+	+	30	0
+	+	30	0
+	+	30	0
+	+	30	0
+	+	30	0
+	+	25	0
+	+	13	0
+	+	6	0
+	+	4	0
+
+> ~/work/Anyka/project/GM-X9-AL-WF/src/UDPServer.c
+	"	126	0
+	^	97	37
+	.	57	0
+	+	67	82
+	+	70	77
+	+	69	23
+	+	230	15
+	+	101	14
+	+	102	11
+	+	79	28
+	+	80	27
+	+	70	52
+	+	71	0
+	+	73	0
+	+	79	0
+	+	75	0
+	+	71	5
+	+	73	5
+	+	75	5
+	+	71	28
+	+	73	28
+	+	75	28
+	+	79	28
+	+	72	50
+	+	74	51
+	+	76	54
+	+	68	19
+	+	103	5
+	+	229	19
+	+	232	4
+	+	236	0
+	+	236	0
+	+	233	0
+	+	235	5
+	+	233	16
+	+	80	60
+	+	82	33
+	+	81	28
+	+	82	57
+	+	80	58
+	+	82	57
+	+	83	28
+	+	84	32
+	+	70	88
+	+	72	87
+	+	74	88
+	+	76	91
+	+	77	28
+	+	78	337
+	+	78	324
+	+	78	50
+	+	78	278
+	+	78	283
+	+	85	27
+	+	86	2
+	+	93	1
+	+	87	2
+	+	92	20
+	+	29	0
+	+	93	0
+	+	87	0
+	+	87	0
+	+	87	0
+	+	92	0
+	+	92	24
+	+	92	1
+	+	92	0
+	+	92	8
+	+	92	0
+	+	92	271
+	+	87	0
+	+	92	0
+	+	92	15
+	+	92	0
+	+	92	10
+	+	92	9
+	+	92	4
+	+	92	5
+	+	92	0
+	+	94	0
+	+	94	2
+	+	94	0
+	+	94	0
+	+	94	1
+	+	94	28
+	+	94	0
+	+	94	0
+	+	95	2
+	+	99	1
+	+	94	0
+	+	96	0
+	+	97	50
+	+	94	28
+	+	94	0
+	+	97	0
+	+	96	23
+	+	98	0
+	+	97	0
+	+	58	0
+	+	57	0
+	+	55	0
+	+	53	0
+	+	57	0
+
+> ~/work/Anyka/project/GM-X9-AL-WF/__Tagbar__
+	"	17	4
+	.	22	0
+	+	206	0
+	+	206	0
+	+	206	0
+	+	206	0
+	+	206	0
+	+	206	0
+	+	206	0
+	+	206	0
+	+	206	0
+	+	206	0
+	+	206	0
+	+	206	0
+	+	206	0
+	+	206	0
+	+	206	0
+	+	206	0
+	+	206	0
+	+	206	0
+	+	206	0
+	+	206	0
+	+	206	0
+	+	206	0
+	+	206	0
+	+	206	0
+	+	206	0
+	+	206	0
+	+	206	0
+	+	206	0
+	+	206	0
+	+	206	0
+	+	156	0
+	+	156	0
+	+	156	0
+	+	156	0
+	+	156	0
+	+	154	0
+	+	154	0
+	+	154	0
+	+	154	0
+	+	154	0
+	+	154	0
+	+	154	0
+	+	154	0
+	+	150	0
+	+	150	0
+	+	150	0
+	+	150	0
+	+	150	0
+	+	150	0
+	+	144	0
+	+	144	0
+	+	144	0
+	+	144	0
+	+	139	0
+	+	139	0
+	+	139	0
+	+	139	0
+	+	139	0
+	+	129	0
+	+	123	0
+	+	123	0
+	+	123	0
+	+	123	0
+	+	123	0
+	+	114	0
+	+	114	0
+	+	106	0
+	+	106	0
+	+	106	0
+	+	98	0
+	+	98	0
+	+	98	0
+	+	90	0
+	+	90	0
+	+	90	0
+	+	81	0
+	+	62	0
+	+	43	0
+	+	35	0
+	+	35	0
+	+	35	0
+	+	35	0
+	+	35	0
+	+	35	0
+	+	35	0
+	+	35	0
+	+	35	0
+	+	35	0
+	+	35	0
+	+	35	0
+	+	35	0
+	+	29	0
+	+	29	0
+	+	29	0
+	+	29	0
+	+	29	0
+	+	22	0
+	+	22	0
+	+	22	0
+	+	22	0
+
+> ~/work/Anyka/sdk/platform/rootfs_build/nand/wifi_softap.sh
+	"	40	0
+	^	34	15
+	.	34	14
+	+	28	1
+	+	29	1
+	+	28	14
+	+	40	29
+	+	46	7
+	+	34	14
+	+	28	1
+	+	29	1
+	+	40	26
+	+	28	0
+	+	34	14
+
+> ~/work/Anyka/sdk/platform/rootfs_build/nand/wifi_connect.sh
+	"	136	0
+	^	69	29
+	.	35	0
+	+	70	1
+	+	70	7
+	+	34	0
+	+	35	0
+	+	70	0
+	+	69	28
+	+	34	0
+	+	35	0
+
+> ~/work/Anyka/sdk/platform/rootfs_build/nand/wifi_stop.sh
+	"	25	0
+	^	25	2
+	.	25	1
+	+	26	0
+	+	26	1
+	+	26	0
+	+	26	0
+	+	22	0
+	+	31	0
+	+	32	29
+	+	34	0
+	+	31	0
+	+	40	2
+	+	41	2
+	+	26	39
+	+	39	25
+	+	39	0
+	+	38	26
+	+	39	22
+	+	22	36
+	+	26	39
+	+	22	9
+	+	26	7
+	+	22	7
+	+	26	0
+	+	23	0
+	+	32	18
+	+	40	1
+	+	41	0
+	+	40	3
+	+	41	3
+	+	39	0
+	+	33	17
+	+	26	0
+	+	33	0
+	+	24	17
+	+	25	1
+
+> ~/work/Anyka/sdk/platform/rootfs_build/nand/wifi_restart.sh
+	"	25	0
+	^	25	29
+	.	25	22
+	+	25	22
+
+> ~/work/Anyka/sdk/platform/rootfs_build/nand/wifi_start.sh
+	"	1	0
+	^	25	9
+	.	25	8
+	+	23	10
+	+	24	0
+	+	25	8
+
+> ~/work/Anyka/sdk/platform/rootfs_build/nand/wifi_station.sh
+	"	34	0
+	^	27	27
+	.	58	0
+	+	52	0
+	+	51	0
+	+	58	17
+	+	27	26
+	+	58	0
+
+> ~/work/Anyka/sdk/platform/rootfs_build/__Tagbar__
+	"	1	0
+	.	5	0
+	+	80	0
+	+	80	0
+	+	80	0
+	+	80	0
+	+	80	0
+	+	80	0
+	+	78	0
+	+	77	0
+	+	77	0
+	+	75	0
+	+	73	0
+	+	70	0
+	+	63	0
+	+	59	0
+	+	59	0
+	+	59	0
+	+	59	0
+	+	54	0
+	+	54	0
+	+	54	0
+	+	52	0
+	+	50	0
+	+	44	0
+	+	44	0
+	+	44	0
+	+	44	0
+	+	44	0
+	+	44	0
+	+	44	0
+	+	44	0
+	+	44	0
+	+	44	0
+	+	44	0
+	+	44	0
+	+	44	0
+	+	44	0
+	+	44	0
+	+	44	0
+	+	44	0
+	+	44	0
+	+	44	0
+	+	44	0
+	+	44	0
+	+	44	0
+	+	44	0
+	+	43	0
+	+	43	0
+	+	41	0
+	+	40	0
+	+	40	0
+	+	40	0
+	+	40	0
+	+	40	0
+	+	40	0
+	+	40	0
+	+	40	0
+	+	39	0
+	+	39	0
+	+	37	0
+	+	36	0
+	+	36	0
+	+	36	0
+	+	31	0
+	+	31	0
+	+	31	0
+	+	31	0
+	+	31	0
+	+	31	0
+	+	31	0
+	+	31	0
+	+	31	0
+	+	31	0
+	+	31	0
+	+	22	0
+	+	22	0
+	+	22	0
+	+	22	0
+	+	22	0
+	+	17	0
+	+	17	0
+	+	17	0
+	+	17	0
+	+	17	0
+	+	17	0
+	+	17	0
+	+	17	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	14	0
+	+	14	0
+	+	12	0
+	+	10	0
+	+	9	0
+	+	9	0
+	+	7	0
+	+	5	0
+
+> ~/work/Anyka/project/GM-X9-AL-WF/src/main.c
+	"	42	0
+	^	52	8
+	.	121	4
+	+	139	6
+	+	113	47
+	+	124	37
+	+	121	4
+	+	124	10
+	+	124	37
+	+	124	13
+	+	48	47
+	+	50	0
+	+	53	0
+	+	55	0
+	+	58	0
+	+	124	54
+	+	50	0
+	+	48	0
+	+	53	0
+	+	55	0
+	+	58	0
+	+	112	3
+	+	121	5
+	+	55	0
+	+	54	0
+	+	52	0
+	+	49	3
+	+	52	0
+	+	124	0
+	+	122	0
+	+	52	7
+	+	121	4
+	n	209	20
+
+> ~/work/Anyka/project/GM-X9-AL-WF/src/Common.c
+	"	406	0
+
+> ~/work/Anyka/sdk/platform/rootfs_build/nand/finish_ethernet.sh
+	"	16	0
+	^	22	8
+	.	22	7
+	+	23	0
+	+	36	1
+	+	36	0
+	+	36	0
+	+	36	0
+	+	36	0
+	+	36	8
+	+	36	0
+	+	36	19
+	+	36	33
+	+	20	7
+	+	26	10
+	+	20	7
+	+	36	38
+	+	36	14
+	+	20	7
+	+	36	4
+	+	57	0
+	+	36	19
+	+	36	17
+	+	36	0
+	+	36	23
+	+	36	8
+	+	36	9
+	+	36	29
+	+	1	0
+	+	36	0
+	+	36	11
+	+	36	11
+	+	36	7
+	+	36	0
+	+	36	0
+	+	36	0
+	+	36	8
+	+	36	0
+	+	36	8
+	+	36	0
+	+	37	0
+	+	37	0
+	+	54	3
+	+	36	0
+	+	36	0
+	+	36	0
+	+	36	0
+	+	15	0
+	+	36	0
+	+	36	0
+	+	36	2
+	+	26	0
+	+	55	0
+	+	36	15
+	+	36	0
+	+	36	0
+	+	15	6
+	+	36	42
+	+	36	0
+	+	36	0
+	+	36	32
+	+	36	8
+	+	36	33
+	+	36	0
+	+	35	0
+	+	29	0
+	+	41	0
+	+	41	0
+	+	41	0
+	+	43	0
+	+	43	0
+	+	54	0
+	+	45	0
+	+	54	0
+	+	46	2
+	+	16	6
+	+	41	15
+	+	15	9
+	+	27	20
+	+	38	19
+	+	47	29
+	+	54	0
+	+	50	1
+	+	54	0
+	+	17	0
+	+	50	42
+	+	40	12
+	+	55	0
+	+	48	0
+	+	36	0
+	+	20	8
+	+	20	0
+	+	20	0
+	+	20	0
+	+	18	18
+	+	19	0
+	+	20	13
+	+	21	1
+	+	20	11
+	+	50	0
+	+	51	0
+	+	50	52
+	+	22	7
+
+> ~/work/Anyka/sdk/platform/rootfs_build/rootfs/usr/share/udhcpc/default.script
+	"	53	0
+	^	66	14
+	.	66	13
+	+	70	0
+	+	70	13
+	+	33	2
+	+	34	2
+	+	33	2
+	+	34	2
+	+	35	5
+	+	70	7
+	+	70	0
+	+	70	0
+	+	70	0
+	+	40	0
+	+	69	0
+	+	69	0
+	+	69	0
+	+	50	0
+	+	60	7
+	+	61	0
+	+	50	30
+	+	52	7
+	+	54	6
+	+	61	7
+	+	63	6
+	+	55	13
+	+	57	13
+	+	64	13
+	+	66	13
+	+	45	15
+	+	47	15
+	+	55	15
+	+	57	15
+	+	64	15
+	+	66	15
+	+	39	53
+	+	44	8
+	+	52	8
+	+	54	8
+	+	63	8
+	+	42	10
+	+	52	10
+	+	61	10
+	+	40	23
+	+	50	24
+	+	46	13
+	+	48	0
+	+	56	0
+	+	58	0
+	+	65	0
+	+	67	0
+	+	48	13
+	+	56	13
+	+	58	13
+	+	65	13
+	+	67	13
+	+	39	23
+	+	56	0
+	+	58	0
+	+	65	0
+	+	67	0
+	+	48	0
+	+	46	0
+	+	39	32
+	+	45	9
+	+	47	9
+	+	55	9
+	+	57	9
+	+	64	9
+	+	66	9
+	+	56	4
+	+	55	12
+	+	57	10
+	+	64	12
+	+	66	12
+	+	45	12
+	+	47	10
+	+	55	12
+	+	57	10
+	+	64	12
+	+	66	11
+	+	45	12
+	+	47	10
+	+	55	12
+	+	57	10
+	+	64	14
+	+	66	11
+	+	45	10
+	+	47	13
+	+	45	13
+	+	55	10
+	+	57	10
+	+	64	13
+	+	66	13
+	+	39	0
+	+	45	13
+	+	46	4
+	+	47	13
+	+	55	13
+	+	57	13
+	+	64	13
+	+	66	13
+
+> ~/work/Anyka/sdk/platform/rootfs_build/rootfs/usr/share/udhcpc/__Tagbar__
+	"	1	0
+	.	8	0
+	+	8	0
+
+> ~/work/Anyka/sdk/platform/rootfs_build/nand/hostapd.conf
+	"	3	14
+	^	3	15
+	.	3	14
+	+	3	14
+
+> ~/work/Anyka/sdk/platform/rootfs_build/nand/udhcpd.conf
+	"	11	14
+	^	11	15
+	.	11	14
+	+	11	14
+
+> ~/work/Anyka/sdk/platform/rootfs_build/nand/wirenet.sh
+	"	49	0
+	.	10	0
+	+	63	14
+	+	23	11
+	+	24	17
+	+	63	0
+	+	50	8
+	+	27	0
+	+	24	0
+	+	49	11
+	+	23	40
+	+	24	35
+	+	50	2
+	+	23	0
+	+	26	18
+	+	31	7
+	+	27	0
+	+	25	22
+	+	50	2
+	+	39	0
+	+	40	0
+	+	42	0
+	+	43	0
+	+	41	0
+	+	53	0
+	+	31	0
+	+	59	0
+	+	27	0
+	+	69	7
+	+	60	7
+	+	26	1
+	+	59	1
+	+	60	1
+	+	23	7
+	+	50	33
+	+	51	0
+	+	50	36
+	+	48	34
+	+	9	0
+	+	10	0
+
+> ~/work/Anyka/sdk/platform/rootfs_build/nand/Net.ini
+	"	15	18
+	^	15	19
+	.	15	18
+	+	11	0
+	+	14	0
+	+	2	33
+	+	3	45
+	+	5	39
+	+	7	47
+	+	6	13
+	+	11	38
+	+	14	43
+	+	18	16
+	+	2	4
+	+	3	6
+	+	4	7
+	+	5	7
+	+	6	7
+	+	8	7
+	+	2	7
+	+	3	7
+	+	4	7
+	+	5	7
+	+	6	7
+	+	8	7
+	+	2	8
+	+	3	10
+	+	4	11
+	+	5	11
+	+	6	11
+	+	7	11
+	+	8	11
+	+	2	0
+	+	11	8
+	+	15	7
+	+	11	4
+	+	11	0
+	+	13	0
+	+	15	16
+	+	18	15
+	+	19	18
+	+	22	12
+	+	23	18
+	+	24	19
+	+	25	17
+	+	26	16
+	+	27	22
+	+	28	22
+	+	29	18
+	+	32	16
+	+	33	13
+	+	34	15
+	+	35	16
+	+	36	13
+	+	2	9
+	+	7	18
+	+	8	26
+	+	15	21
+	+	2	9
+	+	15	18
+
+> ~/work/Anyka/sdk/platform/rootfs_build/nand/finish_station.sh
+	"	37	0
+	^	47	8
+	.	47	7
+	+	57	2
+	+	47	7
+	+	21	0
+	+	13	1
+	+	19	8
+	+	57	2
+	+	47	7
+	+	18	11
+	+	17	0
+	+	18	0
+	+	17	5
+	+	18	11
+	+	47	6
+	+	20	8
+	+	62	0
+	+	64	0
+	+	63	6
+	+	29	9
+	+	41	0
+	+	63	7
+	+	47	0
+	+	57	0
+	+	53	1
+	+	41	8
+	+	41	0
+	+	41	0
+	+	41	0
+	+	41	8
+	+	41	0
+	+	41	0
+	+	63	6
+	+	47	7
+
+> ~/work/Anyka/project/GM-X9-AL-WF/src/MyGpioCtr.c
+	"	537	0
+	^	400	5
+	.	400	11
+	+	400	11
+
+> ~/work/Anyka/project/GM-X9-AL-WF/src/MyGpioCtr.h
+	"	92	3
+
+> ~/work/Anyka/project/GM-X9-AL-WF/src/__Tagbar__
+	"	41	4
+	.	48	0
+	+	93	0
+	+	93	0
+	+	93	0
+	+	93	0
+	+	93	0
+	+	48	0
+	+	48	0
+
+> ~/work/Anyka/sdk/platform/rootfs_build/rootfs/etc/init.d/rcS
+	"	43	0
+	^	45	31
+	.	45	29
+	+	49	0
+	+	48	0
+	+	49	21
+	+	49	0
+	+	43	21
+	+	45	29
+
+> ~/work/Anyka/sdk/platform/rootfs_build/make.sh
+	"	1	0
+	^	24	24
+	.	24	23
+	+	11	25
+	+	22	0
+	+	26	0
+	+	22	24
+	+	24	23
+	+	11	22
+	+	22	24
+	+	24	17
+	+	11	21
+	+	22	24
+	+	24	23
+
+> ~/work/Anyka/sdk/platform/rootfs_build/bash/create_swap_squashfs.sh
+	"	9	0
+	^	9	105
+	.	9	104
+	+	9	70
+	+	9	104
+
+> ~/work/Anyka/sdk/platform/rootfs_build/bash/create_etc_jffs2fs.sh
+	"	33	45
+
+> ~/work/Anyka/sdk/platform/rootfs_build/bash/__Tagbar__
+	"	2	0
+	.	4	0
+	+	4	0
+	+	4	0
+
+> ~/work/Anyka/sdk/devtools/busybox-1.17.2/Makefile
+	"	6	0
+	^	6	75
+	.	6	75
+	+	7	10
+	+	6	75
+
+> ~/work/Anyka/sdk/devtools/busybox-1.17.2/__Tagbar__
+	"	9	16
+	.	182	0
+	+	988	0
+	+	988	0
+	+	988	0
+	+	988	0
+	+	357	0
+	+	357	0
+	+	182	0
+	+	182	0
+
+> ~/work/Anyka/sdk/devtools/busybox-1.17.2/include/libbb.h
+	"	40	0
+	^	40	25
+	.	40	25
+	+	40	25
+
+> ~/work/Anyka/sdk/devtools/busybox-1.17.2/.git/COMMIT_EDITMSG
+	"	2	3
+	^	2	4
+	.	2	3
+	+	2	3
+
+> ~/a.c
+	"	9	0
+	^	9	18
+	.	9	17
+	+	10	0
+	+	11	10
+	+	12	1
+	+	25	0
+	+	25	40
+	+	25	21
+	+	25	11
+	+	25	12
+	+	14	18
+	+	25	4
+	+	15	27
+	+	16	5
+	+	25	0
+	+	16	0
+	+	17	0
+	+	17	0
+	+	15	19
+	+	18	22
+	+	21	15
+	+	2	0
+	+	7	0
+	+	10	0
+	+	2	0
+	+	7	0
+	+	10	0
+	+	13	13
+	+	15	25
+	+	19	13
+	+	17	22
+	+	15	21
+	+	21	14
+	+	24	20
+	+	18	2
+	+	21	2
+	+	9	17
+
+> ~/__Tagbar__
+	"	3	0
+	.	5	0
+	+	159	0
+	+	159	0
+	+	159	0
+	+	149	0
+	+	141	0
+	+	141	0
+	+	141	0
+	+	55	0
+	+	46	0
+	+	46	0
+	+	42	0
+	+	38	0
+	+	34	0
+	+	31	0
+	+	28	0
+	+	27	0
+	+	27	0
+	+	25	0
+	+	25	0
+	+	25	0
+	+	21	0
+	+	17	0
+	+	16	0
+	+	16	0
+	+	12	0
+	+	12	0
+	+	12	0
+	+	12	0
+	+	12	0
+	+	11	0
+	+	11	0
+	+	11	0
+	+	10	0
+	+	10	0
+	+	10	0
+	+	7	0
+	+	5	0
+	+	5	0
+
+> ~/work/Anyka/sdk/platform/rootfs_build/NERD_tree_1
+	"	1	0
+	.	1	0
+	+	1	0
+	+	1	0
+
+> ~/work/Anyka/sdk/platform/rootfs_build/nand/ethernet.sh
+	"	1	0
+
+> ~/work/Anyka/sdk/3rdparty/rtl8188EUS_rtl8189ES_linux_v4.1.7_9024.20130916/Makefile
+	"	398	0
+	^	401	27
+	.	398	0
+	+	401	26
+	+	398	0
+
+> ~/work/Anyka/sdk/3rdparty/rtl8188EUS_rtl8189ES_linux_v4.1.7_9024.20130916/__Tagbar__
+	"	100	4
+	.	244	0
+	+	937	0
+	+	937	0
+	+	937	0
+	+	937	0
+	+	714	0
+	+	714	0
+	+	714	0
+	+	714	0
+	+	714	0
+	+	714	0
+	+	714	0
+	+	714	0
+	+	714	0
+	+	714	0
+	+	714	0
+	+	714	0
+	+	714	0
+	+	714	0
+	+	714	0
+	+	714	0
+	+	714	0
+	+	714	0
+	+	714	0
+	+	714	0
+	+	713	0
+	+	713	0
+	+	472	0
+	+	472	0
+	+	244	0
+	+	244	0
+	+	244	0
+	+	244	0
+	+	244	0
+	+	244	0
+	+	244	0
+	+	244	0
+	+	244	0
+	+	244	0
+	+	244	0
+	+	244	0
+	+	244	0
+	+	244	0
+	+	244	0
+
+> ~/work/Anyka/sdk/3rdparty/rtl8188EUS_rtl8189ES_linux_v4.1.7_9024.20130916/Kconfig
+	"	1	0
+
+> ~/work/Anyka/sdk/3rdparty/rtl8188EUS_rtl8189ES_linux_v4.1.7_9024.20130916/autoconf_rtl8188e_usb_linux.h
+	"	1	0
+	^	149	34
+	.	149	33
+	+	106	64
+	+	107	148
+	+	108	81
+	+	109	57
+	+	110	81
+	+	111	57
+	+	112	81
+	+	113	57
+	+	114	81
+	+	115	81
+	+	116	57
+	+	117	81
+	+	118	57
+	+	119	81
+	+	120	57
+	+	121	82
+	+	122	81
+	+	123	57
+	+	124	77
+	+	125	69
+	+	126	77
+	+	127	77
+	+	128	148
+	+	129	77
+	+	130	148
+	+	131	81
+	+	132	82
+	+	133	81
+	+	134	57
+	+	135	77
+	+	136	148
+	+	137	82
+	+	138	81
+	+	139	57
+	+	140	81
+	+	141	77
+	+	142	77
+	+	143	82
+	+	144	81
+	+	145	77
+	+	146	148
+	+	147	81
+	+	148	57
+	+	149	33
+
+> ~/work/Anyka/sdk/3rdparty/rtl8188EUS_rtl8189ES_linux_v4.1.7_9024.20130916/Make
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/work/Anyka/sdk/old/3rdparty/rtl8188EUS_rtl8189ES_linux_v4.1.7_9024.20130916/Makefile
+	"	400	0
+	^	400	33
+	.	400	32
+	+	840	55
+	+	840	0
+	+	839	0
+	+	840	16
+	+	839	0
+	+	840	17
+	+	839	35
+	+	840	0
+	+	400	32
+
+> ~/work/Anyka/sdk/old/3rdparty/rtl8188EUS_rtl8189ES_linux_v4.1.7_9024.20130916/__Tagbar__
+	"	103	4
+	.	244	0
+	+	1567	0
+	+	1547	0
+	+	1441	0
+	+	1441	0
+	+	1441	0
+	+	1441	0
+	+	1441	0
+	+	1441	0
+	+	1204	0
+	+	1204	0
+	+	1204	0
+	+	1204	0
+	+	1204	0
+	+	1204	0
+	+	965	0
+	+	965	0
+	+	965	0
+	+	965	0
+	+	726	0
+	+	726	0
+	+	726	0
+	+	726	0
+	+	484	0
+	+	244	0
+	+	244	0
+
+> ~/work/Anyka/sdk/old/3rdparty/rtl8188EUS_rtl8189ES_linux_v4.1.7_9024.20130916/Kconfig
+	"	1	0
+
+> ~/work/Anyka/sdk/old/3rdparty/rtl8188EUS_rtl8189ES_linux_v4.1.7_9024.20130916/hal/rtl8188e/usb/usb_halinit.c
+	"	3362	0
+
+> ~/work/Anyka/sdk/old/3rdparty/rtl8188EUS_rtl8189ES_linux_v4.1.7_9024.20130916/make_drv
+	"	199	0
+
+> ~/work/Anyka/sdk/old/platform/rootfs/rootfs/etc/init.d/wifi_softap.sh
+	"	52	0
+
+> ~/work/Anyka/sdk/old/platform/rootfs/rootfs/etc/init.d/__Tagbar__
+	"	6	4
+	.	9	0
+	+	23	0
+	+	23	0
+	+	20	0
+	+	20	0
+	+	20	0
+	+	20	0
+	+	20	0
+	+	20	0
+	+	9	0
+	+	9	0
+	+	9	0
+
+> ~/work/Anyka/sdk/old/platform/rootfs/rootfs/etc/init.d/wifi_connect.sh
+	"	178	0
+
+> ~/work/Anyka/sdk/old/platform/rootfs/rootfs/etc/init.d/is_wifi_mode.sh
+	"	1	0
+
+> ~/work/Anyka/sdk/old/platform/rootfs/rootfs/etc/init.d/wifi_wps.sh
+	"	36	0
+
+> ~/work/Anyka/sdk/old/platform/rootfs/rootfs/etc/udhcpd.conf
+	"	1	0
+
+> ~/work/Anyka/sdk/old/platform/rootfs/rootfs/etc/host.conf
+	"	1	0
+
+> ~/work/Anyka/project/GM-X9-AL-WF/src/Public.c
+	"	302	19
+	^	222	29
+	.	183	0
+	+	199	0
+	+	222	28
+	+	234	0
+	+	257	0
+	+	277	0
+	+	291	0
+	+	289	0
+	+	183	0
+
+> ~/work/Anyka/project/GM-X9-AL-WF/src/Common.h
+	"	31	0
+	.	146	0
+	+	162	0
+	+	160	0
+	+	160	0
+	+	146	0
+
+> ~/work/Anyka/sdk/platform/.git/COMMIT_EDITMSG
+	"	6	0
+	^	6	0
+	.	6	0
+	+	1	22
+	+	18	0
+	+	16	1
+	+	17	1
+	+	15	46
+	+	14	2
+	+	8	40
+	+	11	72
+	+	12	7
+	+	10	41
+	+	9	31
+	+	8	41
+	+	13	48
+	+	8	0
+	+	2	51
+	+	7	48
+	+	6	0
+
+> ~/work/Anyka/sdk/platform/rootfs_build/ttt/etc/init.d/rcS
+	"	10	0
+
+> ~/work/Anyka/sdk/platform/rootfs_build/ttt/etc/init.d/__Tagbar__
+	"	1	0
+	.	4	0
+	+	21	0
+	+	19	0
+	+	17	0
+	+	15	0
+	+	13	0
+	+	11	0
+	+	9	0
+	+	7	0
+	+	4	0
+
+> ~/work/Anyka/sdk/platform/rootfs_build/ttt/etc/init.d/ethernet.sh
+	"	1	0
+
+> ~/work/Anyka/sdk/platform/rootfs_build/ttt/etc/services
+	"	1	0
+
+> ~/work/Anyka/sdk/platform/rootfs_build/ttt/etc/profile
+	"	1	0
+
+> ~/work/Anyka/sdk/platform/rootfs_build/ttt/etc/__Tagbar__
+	"	1	0
+	.	4	0
+	+	8	0
+	+	6	0
+	+	4	0
+
+> ~/work/Anyka/sdk/platform/rootfs_build/ttt/etc/init.d/rc.local
+	"	1	0
+
+> ~/work/Anyka/sdk/platform/rootfs_build/ttt/etc/jffs2/service.sh
+	"	1	0
+
+> ~/work/Anyka/sdk/platform/rootfs_build/rootfs/etc/resolv.conf
+	"	4	0
+	^	10	0
+	.	11	0
+	+	3	0
+	+	12	0
+	+	2	17
+	+	3	24
+	+	12	21
+	+	3	17
+	+	12	25
+	+	12	0
+	+	12	0
+	+	12	0
+	+	12	25
+	+	12	0
+	+	12	0
+	+	5	0
+	+	6	0
+	+	8	0
+	+	9	0
+	+	12	0
+	+	4	0
+	+	7	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	10	0
+	+	11	0
+
+> /etc/resolv.conf
+	"	1	0
+
+> /etc/resolv
+	"	1	0
+
+> ~/work/Anyka/sdk/platform/rootfs_build/resolv.conf
+	"	1	0
+
+> /opt/TC_UDPClient/TC_UDPClient1.1/main.c
+	"	13	0
+
+> /opt/TC_UDPClient/TC_UDPClient1.1/__Tagbar__
+	"	1	0
+	.	10	0
+	+	10	0
+
+> /opt/FCM_PUSH/cJSON.c
+	"	1	0
+
+> /opt/FCM_PUSH/__Tagbar__
+	"	1	0
+	.	79	0
+	+	79	0
+
+> ~/.zshrc
+	"	60	0
+	^	60	61
+	.	60	60
+	+	91	0
+	+	92	0
+	+	93	0
+	+	94	0
+	+	176	0
+	+	177	0
+	+	176	26
+	+	60	60
+
+> /etc/profile
+	"	1	0
+	.	31	0
+	+	31	0
+	+	31	0
+	+	31	0
+	+	31	0
+	+	31	0
+
+> /__Tagbar__
+	"	1	0
+	.	4	0
+	+	9	0
+	+	6	0
+	+	4	0
+
+> ~/.bashrc
+	"	4	0
+
+> /etc/bash.bashrc
+	"	40	0
+	.	70	0
+	+	70	22
+	+	70	0
+
+> /mnt/hgfs/share/output/Net.ini
+	"	14	35
+
+> ~/work/Anyka/project/GM-X9-AL-WF/src/Uart.c
+	"	91	0
+	^	173	20
+	.	173	19
+	+	168	19
+	+	176	5
+	+	169	0
+	+	172	22
+	+	170	10
+	+	173	18
+	+	171	40
+	+	173	19
+
+> ~/work/Anyka/project/GM-X9-AL-WF/src/NDT_Device.c
+	"	692	5
+	.	692	0
+	+	704	0
+	+	676	0
+	+	677	0
+	+	34	0
+	+	1	0
+	+	700	42
+	+	691	0
+	+	692	0
+
+> ~/work/Anyka/project/GM-X9-AL-WF/src/Sqlite.c
+	"	409	20
+
+> ~/work/Anyka/project/GM-X9-AL-WF/src/Sqlite.h
+	"	48	15
+
+> ~/work/Anyka/project/GM-X9-AL-WF/src/Public.h
+	"	61	0
+
+> ~/work/Anyka/project/GM-X9-AL-WF/src/UartDeal.c
+	"	1	0
+	^	432	6
+	.	432	5
+	+	124	0
+	+	433	0
+	+	433	0
+	+	433	51
+	+	433	4
+	+	433	0
+	+	433	0
+	+	433	0
+	+	433	4
+	+	433	8
+	+	433	12
+	+	433	4
+	+	433	0
+	+	433	0
+	+	433	4
+	+	433	4
+	+	433	42
+	+	433	0
+	+	433	0
+	+	433	0
+	+	433	0
+	+	433	0
+	+	433	0
+	+	433	0
+	+	433	0
+	+	433	0
+	+	433	0
+	+	433	0
+	+	433	0
+	+	433	0
+	+	433	0
+	+	433	0
+	+	433	0
+	+	433	0
+	+	433	0
+	+	433	0
+	+	433	0
+	+	433	0
+	+	433	0
+	+	433	0
+	+	433	7
+	+	433	0
+	+	121	45
+	+	433	4
+	+	428	0
+	+	433	0
+	+	121	94
+	+	122	52
+	+	121	0
+	+	123	94
+	+	121	5
+	+	122	29
+	+	407	58
+	+	428	0
+	+	433	0
+	+	428	0
+	+	433	0
+	+	407	0
+	+	431	58
+	+	367	72
+	+	367	0
+	+	370	4
+	+	371	0
+	+	367	0
+	+	375	0
+	+	367	0
+	+	367	0
+	+	212	24
+	+	213	33
+	+	212	4
+	+	198	87
+	+	203	16
+	+	205	16
+	+	206	22
+	+	217	20
+	+	218	23
+	+	220	20
+	+	221	24
+	+	198	112
+	+	207	15
+	+	208	13
+	+	203	13
+	+	205	14
+	+	206	13
+	+	207	12
+	+	206	13
+	+	208	20
+	+	206	5
+	+	204	18
+	+	209	17
+	+	210	22
+	+	217	20
+	+	218	23
+	+	220	24
+	+	221	20
+	+	220	20
+	+	354	90
+	+	356	90
+	+	429	4
+	+	432	5
+
+> /opt/TC_Project/GM-X9-AL-WF/src/Uart.c
+	"	288	0
+
+> /opt/TC_Project/GM-X9-AL-WF/__Tagbar__
+	"	20	4
+	.	21	0
+	+	599	0
+	+	584	0
+	+	584	0
+	+	584	0
+	+	562	0
+	+	562	0
+	+	562	0
+	+	562	0
+	+	562	0
+	+	562	0
+	+	513	0
+	+	509	0
+	+	490	0
+	+	475	0
+	+	473	0
+	+	473	0
+	+	473	0
+	+	473	0
+	+	457	0
+	+	457	0
+	+	457	0
+	+	457	0
+	+	457	0
+	+	419	0
+	+	419	0
+	+	419	0
+	+	419	0
+	+	419	0
+	+	419	0
+	+	419	0
+	+	419	0
+	+	376	0
+	+	376	0
+	+	376	0
+	+	340	0
+	+	340	0
+	+	340	0
+	+	329	0
+	+	329	0
+	+	329	0
+	+	329	0
+	+	329	0
+	+	315	0
+	+	315	0
+	+	300	0
+	+	290	0
+	+	288	0
+	+	288	0
+	+	288	0
+	+	288	0
+	+	288	0
+	+	288	0
+	+	288	0
+	+	288	0
+	+	288	0
+	+	282	0
+	+	282	0
+	+	282	0
+	+	282	0
+	+	282	0
+	+	259	0
+	+	259	0
+	+	259	0
+	+	242	0
+	+	240	0
+	+	240	0
+	+	240	0
+	+	240	0
+	+	232	0
+	+	232	0
+	+	232	0
+	+	222	0
+	+	173	0
+	+	173	0
+	+	158	0
+	+	147	0
+	+	147	0
+	+	147	0
+	+	147	0
+	+	147	0
+	+	134	0
+	+	134	0
+	+	134	0
+	+	121	0
+	+	121	0
+	+	121	0
+	+	108	0
+	+	108	0
+	+	108	0
+	+	95	0
+	+	95	0
+	+	95	0
+	+	80	0
+	+	65	0
+	+	51	0
+	+	51	0
+	+	35	0
+	+	35	0
+	+	21	0
+	+	21	0
+
+> /opt/TC_Project/GM-X9-AL-WF/src/UartDeal.c
+	"	247	0
+
+> src/UDPServer.c
+	"	9	0
+	^	9	1
+	.	9	0
+	+	9	0
+
+> ~/work/Anyka/project/GM-X9-AL-WF/src/UartDeal.h
+	"	57	0
+	^	165	49
+	.	166	0
+	+	129	34
+	+	130	38
+	+	131	26
+	+	132	30
+	+	131	28
+	+	132	27
+	+	133	35
+	+	134	39
+	+	135	33
+	+	136	34
+	+	135	32
+	+	136	44
+	+	137	28
+	+	138	28
+	+	137	33
+	+	138	37
+	+	139	0
+	+	140	0
+	+	141	0
+	+	144	0
+	+	142	0
+	+	143	0
+	+	139	43
+	+	140	43
+	+	141	43
+	+	142	43
+	+	143	43
+	+	144	43
+	+	138	23
+	+	139	23
+	+	140	23
+	+	141	23
+	+	142	23
+	+	143	23
+	+	144	23
+	+	138	37
+	+	139	30
+	+	140	34
+	+	141	33
+	+	142	37
+	+	141	30
+	+	142	31
+	+	143	29
+	+	144	33
+	+	139	40
+	+	141	39
+	+	143	38
+	+	134	40
+	+	52	24
+	+	53	0
+	+	52	30
+	+	53	33
+	+	52	29
+	+	53	0
+	+	70	0
+	+	90	0
+	+	123	0
+	+	71	0
+	+	69	18
+	+	70	30
+	+	71	0
+	+	144	33
+	+	164	48
+	+	166	0
+	+	164	50
+	+	147	0
+	+	153	0
+	+	166	100
+	+	164	106
+	+	166	113
+	+	163	19
+	+	166	5
+	+	163	0
+	+	164	0
+	+	158	20
+	+	158	22
+	+	162	0
+	+	158	0
+	+	162	0
+	+	159	0
+	+	166	40
+	+	158	3
+	+	159	3
+	+	166	32
+	+	158	4
+	+	24	12
+	+	26	5
+	+	25	15
+	+	159	4
+	+	164	0
+	+	166	0
+	+	160	19
+	+	161	7
+	+	166	0
+	+	165	0
+	+	166	43
+	+	165	48
+	+	165	148
+	+	165	48
+	+	166	0
+
+> /opt/TC_Project/TC-3000D-X1-CM/project/release/src/application/main.c
+	"	926	0
+
+> /opt/TC_Project/TC-3000D-X1-CM/project/release/src/__Tagbar__
+	"	123	4
+	.	124	0
+	+	178	0
+	+	178	0
+	+	178	0
+	+	124	0
+	+	124	0
+	+	124	0
+	+	124	0
+	+	124	0
+	+	124	0
+	+	124	0
+	+	124	0
+	+	124	0
+	+	124	0
+	+	124	0
+
+> /opt/TC_Project/TC-3000D-X1-CM/project/release/src/gui/FormMain.h
+	"	67	10
+
+> /opt/TC_Project/TC-3000D-X1-CM/project/release/src/gui/FormMain.c
+	"	1218	22
+
+> ~/work/Anyka/project/GM-X9-AL-WF/src/Uart.h
+	"	45	0
+
+> ~/work/Anyka/project/GM-X9-AL-WF/t.c
+	"	62	0
+	^	66	66
+	.	62	27
+	+	9	0
+	+	10	0
+	+	60	32
+	+	61	1
+	+	68	16
+	+	69	9
+	+	68	5
+	+	69	0
+	+	68	0
+	+	68	55
+	+	68	3
+	+	68	0
+	+	62	29
+	+	66	51
+	+	64	36
+	+	65	15
+	+	66	13
+	+	62	40
+	+	67	12
+	+	66	65
+	+	62	27
+
+> ~/work/Anyka/project/GM-X9-AL-WF/src/Uart.
+	"	1	0
+
+> ~/work/Anyka/sdk/platform/rootfs_build/nand/device_save.sh
+	"	1	0
+
+> ~/work/Anyka/sdk/platform/rootfs_build/rootfs/etc/init.d/__Tagbar__
+	"	1	0
+	.	4	0
+	+	4	0
+	+	4	0
+	+	4	0
+
+> ~/work/Anyka/sdk/platform/rootfs_build/ini
+	"	1	0

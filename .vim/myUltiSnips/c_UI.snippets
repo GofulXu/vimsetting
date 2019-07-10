@@ -1,0 +1,224 @@
+###########################################################################
+#                            TextMate Snippets                            #
+###########################################################################
+
+priority -60
+
+# 创建minigui新窗口模板
+snippet minigui_form "Creat Minigui Form" b
+/*
+ * ============================================================================
+ *
+ *       Filename:  `!v fnamemodify(bufname("%"),":t") `
+ *
+ *    Description:  ${1:description}
+ *
+ *        Version:  ${2:virsion}
+ *        Created:  `echo $(date +%Y-%m-%d\ %H:%M:%S)`
+ *       Revision:  ${3:none}
+ *
+ *         Author:  xubin
+ *        Company:  Taichuan
+ *
+ * =============================================================================
+ */
+/* ---------------------------------------------------------------------------*
+ *                      include head files
+ *----------------------------------------------------------------------------*/
+
+#include "FormBase.h"
+#include "`!v fnamemodify(bufname("%"),":r") `.h"
+/* ---------------------------------------------------------------------------*
+ *                  extern variables declare
+ *----------------------------------------------------------------------------*/
+
+/* ---------------------------------------------------------------------------*
+ *                  internal functions declare
+ *----------------------------------------------------------------------------*/
+static int form$6Proc(HWND hDlg, int message, WPARAM wParam, LPARAM lParam);
+static void keyboardNotify(HWND hwnd, int id, int nc, DWORD add_data);
+static void formInitCtrlLabers(HWND hDlg);
+static void formInitCtrlButtons(HWND hDlg);
+static void formInitCtrlEdits(HWND hDlg);
+static void formInitPara(HWND hDlg, int message, WPARAM wParam, LPARAM lParam);
+
+/* ---------------------------------------------------------------------------*
+ *                        macro define
+ *----------------------------------------------------------------------------*/
+#if DBG_${4:none} > 0
+	#define DBG_P( x... ) printf( x )
+#else
+	#define DBG_P( x... )
+#endif
+
+/* ---------------------------------------------------------------------------*
+ *                      variables define
+ *----------------------------------------------------------------------------*/
+static MY_CTRLDATA ChildCtrls [] = {
+
+
+};
+
+static MY_DLGTEMPLATE DlgInitParam =
+{
+    WS_NONE,
+//   WS_EX_AUTOSECONDARYDC,
+    WS_EX_NONE,
+    0,0,SCR_WIDTH,SCR_HEIGHT,
+    "",
+    0, 0,       //menu and icon is null
+    sizeof(ChildCtrls)/sizeof(MY_CTRLDATA),
+    ChildCtrls, //pointer to control array
+    0           //additional data,must be zero
+};
+
+static FormBasePriv form_base_priv= {
+	.name = "TFrm${5}",
+	.dlgProc = &form${6}Proc,
+	.dlgInitParam = &DlgInitParam,
+
+	.keyboardNotify = keyboardNotify ,
+	.initCtrlLabers =  formInitCtrlLabers,
+	.initCtrlButtons =  formInitCtrlButtons,
+	.initCtrlEdits =  formInitCtrlEdits,
+	.initPara =  formInitPara,
+};
+
+static FormBase* form_base;
+/* ---------------------------------------------------------------------------*/
+/**
+ * @brief keyboardNotify 小键盘按键回调函数
+ *
+ * @param hwnd
+ * @param id
+ * @param nc
+ * @param add_data 键值 0-11
+ */
+/* ---------------------------------------------------------------------------*/
+static void keyboardNotify(HWND hwnd, int id, int nc, DWORD add_data)
+{
+}
+
+/* ---------------------------------------------------------------------------*/
+/**
+ * @brief formInitCtrlLabers 初始化Laber控件
+ *
+ * @param hDlg
+ */
+/* ---------------------------------------------------------------------------*/
+static void formInitCtrlLabers(HWND hDlg)
+{
+}
+
+/* ---------------------------------------------------------------------------*/
+/**
+ * @brief formInitCtrlEdits 初始化Edit控件
+ *
+ * @param hDlg
+ */
+/* ---------------------------------------------------------------------------*/
+static void formInitCtrlEdits(HWND hDlg)
+{
+}
+
+/* ---------------------------------------------------------------------------*/
+/**
+ * @brief formInitCtrlButtons 初始化button控件
+ *
+ * @param hDlg
+ */
+/* ---------------------------------------------------------------------------*/
+static void formInitCtrlButtons(HWND hDlg)
+{
+}
+
+/* ---------------------------------------------------------------------------*/
+/**
+ * @brief formInitPara 初始化编辑框
+ *
+ * @param hDlg
+ * @param message
+ * @param wParam
+ * @param lParam
+ */
+/* ---------------------------------------------------------------------------*/
+static void formInitPara(HWND hDlg, int message, WPARAM wParam, LPARAM lParam)
+{
+}
+
+/* ---------------------------------------------------------------------------*/
+/**
+ * @brief form$6Proc 窗口回调函数
+ *
+ * @param hDlg
+ * @param message
+ * @param wParam
+ * @param lParam
+ *
+ * @return
+ */
+/* ---------------------------------------------------------------------------*/
+static int form$6Proc(HWND hDlg, int message, WPARAM wParam, LPARAM lParam)
+{
+	switch (message)
+	{
+		case MSG_INITDIALOG:
+			{
+				formInitCtrlLabers(hDlg);
+				formInitCtrlEdits(hDlg);
+				formInitCtrlButtons(hDlg);
+			} break;
+
+		case MSG_TIMER:
+			{
+
+			} break;
+
+		default:
+			break;
+	}
+
+	if (form_base->baseProc(form_base,hDlg, message, wParam, lParam) == 0) {
+		return 0;
+	}
+
+    return DefaultDialogProc(hDlg, message, wParam, lParam);
+}
+
+/* ---------------------------------------------------------------------------*/
+/**
+ * @brief createForm$6 创建${7}窗口
+ *
+ * @param hMainWnd
+ *
+ * @returns
+ */
+/* ---------------------------------------------------------------------------*/
+int createForm$6(HWND hMainWnd,BITMAP *Bmp_bkg)
+{
+	HWND Form = Screen.Find(form_base_priv.name);
+	if(Form) {
+		ShowWindow(Form,SW_SHOWNORMAL);
+	} else {
+		form_base_priv.hwnd = hMainWnd;
+		form_base_priv.bmp_bkg = Bmp_bkg;
+		form_base = formBaseCreate(&form_base_priv);
+	}
+
+	return 0;
+}
+${0}
+endsnippet
+
+snippet xywh "define X_* Y_* W_* H_* for controls location" b
+#define W_${1:SIMBLE}
+#define H_$1
+#define X_$1
+#define Y_$1
+
+endsnippet
+
+snippet cctrl "X_*,Y_*,W_*,H_*,for creat controls" b
+(X_${1},Y_$1,W_$1,H_$1,),
+endsnippet
+# vim:ft=snippets:

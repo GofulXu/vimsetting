@@ -1,0 +1,54 @@
+# This file contains snippets that are always defined. I personally
+# have snippets for signatures and often needed texts
+
+# sligthly lower priority than everything else since specialized versions
+# should overwrite. The user needs to adjust her priority in her snippets to
+# ~-55 so that other filetypes will still overwrite.
+priority -60
+
+# .h add head files
+snippet hhead "add .h files head description" b
+/*
+ * =====================================================================================
+ *
+ *       Filename:  `!v fnamemodify(bufname("%"),":t") `
+ *
+ *    Description:  ${1:description}
+ *
+ *        Version:  ${2:virsion}
+ *        Created:  `echo $(date +%Y-%m-%d\ %H:%M:%S)` 
+ *       Revision:  ${3:none}
+ *
+ *         Author:  xubin
+ *        Company:  Taichuan
+ *
+ * =====================================================================================
+ */
+#ifndef _${4/([A-Za-z0-9_]+).*/$1/}_H
+#define _${4:SYMBOL}_H
+
+#ifdef __cplusplus
+extern "C" {
+#endif  /* __cplusplus */
+
+${0}
+
+#ifdef __cplusplus
+}
+#endif  /* __cplusplus */
+
+#endif
+endsnippet
+
+snippet cclass "c files class" b
+typedef struct _${1} {
+	/*	private  variable  */
+
+
+	/*	public  functions  */
+	${2}
+	void (*Destroy)(struct _$1 *This);
+}$1;
+${0}
+endsnippet
+# vim:ft=snippets:

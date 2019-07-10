@@ -1,0 +1,5 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_1='~/tc3000/kernel/kernel_2.6.35/linux-2.6.35.4/drivers/input/keyboard'
+let g:netrw_dirhist_2='~/tc3000/minigui/workspace/xb/indoor_debug/src'
+let g:netrw_dirhist_3='~/tc3000/minigui/workspace/xb/indoor_debug'
