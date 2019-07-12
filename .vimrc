@@ -594,3 +594,4 @@ set termencoding=utf-8
 set tags=tags
 set nu
 set mouse=a
+map <c-]> g<c-]>
